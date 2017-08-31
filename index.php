@@ -20,7 +20,7 @@
     mysqli_set_charset($conn,"utf8");
     ?>
     <body>
-    <div class="col-xs-4 col-lg-9 bg" id="map" style="width:100%;height:500px;float: left;"></div>
+    <div class="col-xs-4 col-lg-9 bg" id="map" style="width:75%;height:500px;float: left;"></div>
     <div class="col-xs-4 "map">
     	<form name="addlandmarkform" id="addlandmarkform" action="" method="post">
     	<table align="" name = "addlandmark" id="addlandmark"  border="0" cellpadding="2" cellspacing="5">
@@ -47,7 +47,7 @@
     			</select>
     		</td>
     		<td>
-    			<input type="text" name="name of branch" id="branchname" value="" readonly="readonly">
+    			<input type="text" name="name of branch" id="branchname" value="" readonly>
     		</td>
     		</tr>
     		<tr>
@@ -71,7 +71,7 @@
     				ละติจูด
     			</td>
     			<td>
-    				<input type="text" name="lat_location" value="" id="lat_location" readonly="readonly">
+    				<input type="text" name="lat_location" value="" id="lat_location" readonly>
     			</td>
     		</tr>
     		<tr>
@@ -79,7 +79,7 @@
     				ลองติจูด
     			</td>
     			<td>
-    				<input type="text" name="lng_location" value="" id="lng_location" readonly="readonly">
+    				<input type="text" name="lng_location" value="" id="lng_location" readonly>
     			</td>
     		</tr>
     	</table>
