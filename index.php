@@ -86,7 +86,7 @@
     	<button name="clear" type="reset" value="reset">clear</button>
     	<input type="submit" name="add" value="add" disabled="disabled" id="add">
     	</form>
-        
+        <a href="dootook.php"><input type="button" value="กด"></a>
     </div>
     <script type="text/javascript">
     var lat;

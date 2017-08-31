@@ -15,7 +15,7 @@
       #map {
         height: 100%;
         float: left;
-        width: 80%;
+        width: 100%;
 
       }
       #floating-panel {
