@@ -20,7 +20,7 @@
     mysqli_set_charset($conn,"utf8");
     ?>
     <body>
-    <div class="col-xs-4 col-lg-9 bg" id="map" style="width:75%;height:500px;float: left;"></div>
+    <div class="col-xs-12 col-lg-12 bg" id="map" style="width:100%;height:500px;float: left;"></div>
     <div class="col-xs-4 "map">
     	<form name="addlandmarkform" id="addlandmarkform" action="" method="post">
     	<table align="" name = "addlandmark" id="addlandmark"  border="0" cellpadding="2" cellspacing="5">
