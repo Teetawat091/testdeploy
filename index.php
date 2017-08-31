@@ -86,6 +86,7 @@
     	<button name="clear" type="reset" value="reset">clear</button>
     	<input type="submit" name="add" value="add" disabled="disabled" id="add">
     	</form>
+        <input name = "nextpage" href = "dootook.php" value = "routing">
     </div>
     <script type="text/javascript">
     var lat;
