@@ -21,7 +21,7 @@
     ?>
     <body>
     <div class="col-xs-12 col-lg-12 bg" id="map" style="width:100%;height:500px;float: left;"></div>
-    <div class="col-xs-4 "map">
+    <!--<div class="col-xs-4 ">
     	<form name="addlandmarkform" id="addlandmarkform" action="" method="post">
     	<table align="" name = "addlandmark" id="addlandmark"  border="0" cellpadding="2" cellspacing="5">
     		<tr>
@@ -87,7 +87,7 @@
     	<input type="submit" name="add" value="add" disabled="disabled" id="add">
     	</form>
         
-    </div>
+    </div>-->
     <script type="text/javascript">
     var lat;
     var lng;
